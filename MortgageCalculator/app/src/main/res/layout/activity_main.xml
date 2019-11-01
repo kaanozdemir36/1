@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/pursPriceYazi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/purchasePrice"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/DownPayYazi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_DownPayment"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/RateYazi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_InterestRate"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="151dp"
+        android:layout_height="35dp"
+        android:fadeScrollbars="false"
+        android:maxWidth="30dp"
+        android:scrollX="10dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="213dp"
+        tools:minWidth="10dp" />
+
+    <TextView
+        android:id="@+id/tenEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <TextView
+        android:id="@+id/twentyEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <TextView
+        android:id="@+id/thirtyEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <EditText
+        android:id="@+id/pursPriceEdit"
+        android:layout_width="77dp"
+        android:layout_height="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <EditText
+        android:id="@+id/downPayEdit"
+        android:layout_width="76dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <EditText
+        android:id="@+id/rateEdit"
+        android:layout_width="60dp"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:text="@string/hint_Calculate"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:id="@+id/ResultYazi"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:text="@string/hint_Result"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <EditText
+        android:id="@+id/ResultEdit"
+        android:layout_width="147dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:id="@+id/loanTermYazi"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/hint_LoanTerm"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+</android.support.constraint.ConstraintLayout>
+
+
